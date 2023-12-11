@@ -1,0 +1,55 @@
+html {
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QRcode {
+    width: 250px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 0 0;
+}
+
+#Textos {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0 15% 0 15%;
+}
+
+.parograph-01 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.parograph-02 {
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}
+
+.attribution {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 10px;
+    margin: 5% 0 0 0;
+}
